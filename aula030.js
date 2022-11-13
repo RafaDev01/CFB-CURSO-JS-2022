@@ -1,4 +1,5 @@
 //getElementById -> obtem elementos da pagina via ID
+//retorna somente 1 elemento
 
 const dc1 = document.getElementById("c1")
 const dc2 = document.getElementById("c2")
