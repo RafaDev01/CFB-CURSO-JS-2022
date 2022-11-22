@@ -1,0 +1,57 @@
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.caixa{
+  height: 500px;
+  width: 300px;
+  border: 5px solid black;
+  padding: 60px 26px;
+  background-color: rgb(213, 212, 211);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.curso{
+  border: 5px solid rgb(132, 146, 147);
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  margin: 10px;
+  background-color: rgb(175, 175, 175);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+button{
+  width: 160px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 12px;
+  background-color: rgba(59, 59, 164, 0.778);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.selecionado{
+  background-color: #800 !important;
+  color: #fcc !important;
+  border-color: #f00 !important;
+}
+
+.c1{
+  background-color: #ccc;
+  color: #444;
+}
+
+.c2{
+  background-color: #444;
+  color: #ccc;
+}

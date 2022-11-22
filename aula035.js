@@ -13,11 +13,20 @@ todosCursos.map((el)=>{
 
 botao.addEventListener("click",()=>{
   const cursosSelecionados = [...document.querySelectorAll(".selecionado")]
+
+  //a const naoSelecionados recebe elementos que contem a classe .curso mas não contem a classe selecionado
+  const naoSelecionados = [...document.querySelectorAll(".curso:not(.selecionado)")]
+  console.log(naoSelecionados)
   cursosSelecionados.map((el)=>{
     //appendChild -> anexa o filho ao elemento caixa2
-    caixa2.appendChild(el)
+      caixa2.appendChild(el)
+  })     
+  
+  naoSelecionados.map((el)=>{
+    caixa1.appendChild(el)
   })
 })
+
 
 
 
